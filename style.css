@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.color{
+    color:#319aa8 !important;
+ 
+}
+
+a{
+    text-decoration:none !important;
+}
+
+/******navigation styling*********************************/
+.navbar-brand,.nav-link{
+    color:#319aa8 !important;
+}
+
+.navbar-brand{
+    font-size:1.4rem;
+    font-weight:600;
+}
+.navbar-brand:hover{
+    color:#319aa8 !important;
+}
+
+.navbar-toggler{
+    color:#319aa8 !important;
+}
+
+button:focus{
+    outline:none;
+}
+
+.nav-link{
+    font-size:1.3rem;
+    font-weight:500;
+    transition:0.05s;
+}
+.nav-link:hover{
+    color:#319aa8 !important;
+    border-bottom:2px solid #319aa8;
+}
+
+.nav-link:active{
+    border-bottom:2px solid #319aa8;
+}
+
+#imglogo{
+    height:40px;
+    width:40px;
+    vertical-align: middle;
+}
+
+#contact{
+    color:rgba(252, 27, 27, 0.7) !important;
+    border:1px solid rgba(252, 27, 27, 0.9);
+    border-radius:20px;
+    padding:5px 25px 5px 25px;
+    font-size:1.2rem !important;
+    transition:0.5s;
+}
+
+#contact:hover{
+    background:rgba(252, 27, 27, 0.7);
+    color:#fff !important;
+}
+
+.overviewsection{
+    margin-top:100px;
+    color:rgba(49, 154, 168,0.9);
+}
+
+.coviddetails{
+    background:rgba(49, 154, 168,0.02);
+    background-size:cover;
+}
+
+#stayhome{
+    color:rgba(49, 154, 168,0.8)
+}
+
+#details{
+    font-size:1.15rem;
+}
+#readmore{
+    padding:7px 10px 7px 10px;
+    border-radius:7px;
+    color:rgba(49, 154, 168,0.8);
+    border:1px solid rgb(49, 154, 168);
+    transition:0.5s;
+    font-size:1.1rem;
+}
+
+#readmore:hover{
+    background:rgb(49, 154, 168);
+    color:#fff;
+}
+
+.virus{
+    height:50px;
+    width:50px;
+    position:absolute;
+}
+
+#corona{
+    left:320px;
+    top:50px;
+}
+
+#covidvirus{
+    left:90px;
+    top:50px;
+}
+
+#covidviral{
+    height:200px;
+    width:200px;
+    position:absolute;
+    left:100px;
+    top:50px;
+}
+
+#covidviridae{
+    left:270px;
+    top:200px;
+}
+
+hr{
+    width:100px;
+    margin-top:0rem !important;
+    margin-right:10px !important;
+    border-color:rgba(141, 183, 189, 1) !important;
+}
+
+.card{
+    box-shadow:2px 2px 40px 5px #e7e7e7;
+    transition:0.5s;
+    border:none !important;
+}
+
+.card:hover{
+    border-bottom:5px solid rgba(231, 8, 8, 0.9) !important;
+    transform:translateY(-10px);
+}
+
+#undersymp{
+    width:70px;
+}
+
+.number{
+    color:rgba(250,0,0,0.6);
+    background:rgba(250,0,0,0.3);
+    padding:5px;
+    border-radius:50%;
+    font-size:1.6rem;
+    margin-right:10px;
+}
+
+.preventionhead{
+    font-weight:700;
+}
+
+.imgprevent{
+    height:250px !important;
+    width:500px;
+}
+
+.info{
+    font-size:1.3rem;
+}
+
+#ncdc{
+    color:rgba(216, 54, 54, 0.8);
+    background:#fff;
+    padding:5px 20px 5px 20px;
+    font-size:1.3rem;
+    font-weight:600;
+    border-radius:15px;
+    border:1px solid rgba(216, 54, 54, 0.8);
+    transition:0.5s;
+}
+
+#ncdc:hover{
+    background:rgba(248, 46, 46, 0.9);
+    color:#fff;
+}
+
+@media screen and (max-width:770px){
+#order1{
+    order:1 !important;
+}
+#order2{
+    order:2 !important;
+}
+}

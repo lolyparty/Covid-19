@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <title>COVID-19</title>
+</head>
+<body data-spy="scroll" data-target="#navigation" id="Home">
+
+<!---Nav bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3" id="navigation">
+       
+            <a href="index.html" class="navbar-brand">
+                <img src="img/covidlogo.svg" class="img-fluid mr-1" id="imglogo"> COVID-19
+            </a>
+            <button class="navbar-toggler" data-target="#navb" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navb" class="navbar-collapse collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#transmission">Transmission</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#Symptoms">Symptoms</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#prevention">Prevention</a>
+                    </li>
+                    <li class="nav-item px-2 d-none d-lg-block">
+                        <a class="nav-link"  id="contact" href="https://covid19.ncdc.gov.ng/contact/" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </div>
+       
+    </nav>
+
+    <!--overview section starts here-->
+<div class="overviewsection text-center py-4 mb-5" id="overview">
+    <h3 class="text-center">COVID-19 IS REAL</h3>
+    <p id="stayhome" class="mb-4">Stay Home and Stay Safe</p>
+    <div class="coviddetails">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-6 p-2">
+                    <h2 class="text-center">What is COVID-19?</h2>
+                        <p class="p-2" id="details">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+
+                            Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness. </p>
+                        <p><a id="readmore" href="https://www.who.int/health-topics/coronavirus#tab=tab_1" target="_blank">Read more</a></p>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="img-fluid virus" id="covidvirus" src="img/covidd.svg" >
+                    <img class="img-fluid virus" id="corona" src="img/covidd.svg" >
+                    <img class="img-fluid" id="covidviral" src="img/covidlogo.svg" >
+                    <img class="img-fluid virus" id="covidviridae" src="img/covidd.svg" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--Transmission section-->
+    <div id="transmission" class=" pt-5">
+        <div class="container">
+            <h2 id="transhead" class="color">Transmission</h2>
+            <hr>
+            <div class="row py-5 text-center">
+                <div class="div col-md-4 my-3">
+                    <div class="card py-2">
+                        <img class="card-img-top img-fluid my-4" src="img/air-trans.svg" >
+                        <div class="card-body">
+                            <h4 class="card-title color"> Air Transmission</h4>
+                            <p class="card-text">COVID-19 virus is primarily transmitted between people through respiratory droplets and contact routes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div col-md-4 my-3">
+                    <div class="card py-2">
+                        <img class="card-img-top img-fluid " src="img/close-contact.svg" >
+                        <div class="card-body">
+                            <h4 class="card-title mt-2 color"> Close Contact</h4>
+                            <p class="card-text">The virus is thought to spread mainly from person-to-person.
+                                Between people who are in close contact with one another.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div col-md-4 my-3">
+                    <div class="card py-2">
+                        <img class="card-img-top img-fluid my-4" src="img/object.svg" >
+                        <div class="card-body">
+                            <h4 class="card-title color"> Contaminated Object</h4>
+                            <p class="card-text">COVID-19 viruses can survive on surfaces from several hours to days depending on several factors.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Symptoms section starts here-->
+    <div class="symptomssection my-3 py-3" id="Symptoms">
+        <div class="container">
+           <h3 class="color">Symptoms</h3>
+           <hr id="undersymp">
+           <img src="img/symptoms.svg" class="img-fluid my-2">
+        </div>
+    </div>
+
+    <!---Prevention section starts here-->
+    <div class="preventionsection my-5" id="prevention">
+        <div class="container">
+            <h3 class="color">Prevention</h3>
+            <hr id="undersymp">
+            <div class="row mt-5">
+                <div class="col-md-6 pt-5">
+                    <h4 class="preventionhead color"><span class="number"> 01 </span>Wear Masks</h4>
+                    <p class="py-3">You could spread COVID-19 to others even if you do not feel sick.
+                        Everyone should wear a cloth face cover when they have to go out in public, for example to the grocery store or to pick up other necessities.Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing</p>
+                </div>
+                <div class="col-md-6 my-2">
+                    <img class="img-fluid imgprevent" src="img/Mask girl.svg">
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 my-2" id="order2">
+                    <img class="img-fluid imgprevent" src="img/Mask.svg">
+                </div>
+                <div class="col-md-6 pt-5" id="order1">
+                    <h4 class="preventionhead color"><span class="number"> 02 </span>Wash Your Hands</h4>
+                    <p class="py-3">Wash your hands regularly for at least 20 seconds with soap and water, or clean them with alcohol-based hand rub especially after you have been in a public place, or after blowing your nose, coughing, or sneezing. Avoid touching your eyes, nose, and mouth with unwashed hands.</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 pt-5">
+                    <h4 class="preventionhead color"><span  class="number"> 03 </span>Avoid Close Contact</h4>
+                    <p class="py-3">Avoid close contact with people who are sick, even inside your home. If possible, maintain 6 feet between the person who is sick and other household members.
+                    Put distance between yourself and other people outside of your home.
+                        </p>
+                </div>
+                <div class="col-md-6 my-2">
+                    <img class="img-fluid imgprevent" src="img/Mask (1).svg">
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 my-2" id="order2">
+                    <img class="img-fluid imgprevent" src="img/Stayhome.svg">
+                </div>
+                <div class="col-md-6 pt-5" id="order1">
+                    <h4 class="preventionhead color"><span class="number"> 04 </span>Stay Home And Stay Safe</h4>
+                    <p class="py-3">Anyone who is sick — even if they don't know for sure they have coronavirus (COVID-19) — should stay home unless they need medical care. This helps prevent the illness from spreading to other people.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!---Enquiries section-->
+    <div class="div contact">
+        <div class="container text-center">
+            <p class="info color">For more information contact</p>
+            <p><a href="https://covid19.ncdc.gov.ng/" target="_blank"  id="ncdc"> NCDC </a></p>
+
+        </div>
+
+    </div>
+
+<!---footer section-->
+<footer classs="footersection py-3">
+    <div class="footer m-2">
+        <a href="index.html" class="navbar-brand">
+            <img src="img/covidlogo.svg" class="img-fluid mr-1" id="imglogo"> COVID-19
+        </a>
+        <span class="copyright color">&copy; 2020</span>
+    </div>
+
+</footer>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+    <script src="App.js">
+       
+    </script>
+</body>
+</html>
+

@@ -8,11 +8,17 @@
  
 }
 
+
+
 a{
     text-decoration:none !important;
 }
 
 /******navigation styling*********************************/
+.navbar{
+    transition:0.5s;
+}
+
 .navbar-brand,.nav-link{
     color:#319aa8 !important;
 }
@@ -30,7 +36,7 @@ a{
 }
 
 button:focus{
-    outline:none;
+    outline:none !important;
 }
 
 .nav-link{

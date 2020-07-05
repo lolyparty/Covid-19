@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>COVID-19</title>
 </head>
 <body data-spy="scroll" data-target="#navigation" id="Home">
@@ -72,7 +74,7 @@
             <hr>
             <div class="row py-5 text-center">
                 <div class="div col-md-4 my-3">
-                    <div class="card py-2">
+                    <div class="card py-2" data-aos="flip-left" data-aos-duration="1200">
                         <img class="card-img-top img-fluid my-4" src="img/air-trans.svg" >
                         <div class="card-body">
                             <h4 class="card-title color"> Air Transmission</h4>
@@ -81,7 +83,7 @@
                     </div>
                 </div>
                 <div class="div col-md-4 my-3">
-                    <div class="card py-2">
+                    <div class="card py-2" data-aos="zoom-in" data-aos-duration="1200">
                         <img class="card-img-top img-fluid " src="img/close-contact.svg" >
                         <div class="card-body">
                             <h4 class="card-title mt-2 color"> Close Contact</h4>
@@ -91,7 +93,7 @@
                     </div>
                 </div>
                 <div class="div col-md-4 my-3">
-                    <div class="card py-2">
+                    <div class="card py-2" data-aos="flip-right" data-aos-duration="1200">
                         <img class="card-img-top img-fluid my-4" src="img/object.svg" >
                         <div class="card-body">
                             <h4 class="card-title color"> Contaminated Object</h4>
@@ -117,43 +119,43 @@
             <h3 class="color">Prevention</h3>
             <hr id="undersymp">
             <div class="row mt-5">
-                <div class="col-md-6 pt-5">
-                    <h4 class="preventionhead color"><span class="number"> 01 </span>Wear Masks</h4>
-                    <p class="py-3">You could spread COVID-19 to others even if you do not feel sick.
-                        Everyone should wear a cloth face cover when they have to go out in public, for example to the grocery store or to pick up other necessities.Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing</p>
+                <div class="col-md-6 pt-5" data-aos="">
+                        <h4 class="preventionhead color"><span class="number"> 01 </span>Wear Masks</h4>
+                        <p class="py-3">You could spread COVID-19 to others even if you do not feel sick.
+                            Everyone should wear a cloth face cover when they have to go out in public, for example to the grocery store or to pick up other necessities.Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing</p>
                 </div>
-                <div class="col-md-6 my-2">
-                    <img class="img-fluid imgprevent" src="img/Mask girl.svg">
+                <div class="col-md-6 my-2" data-aos="flip-left">
+                        <img class="img-fluid imgprevent" src="img/Mask girl.svg">
                 </div>
             </div>
 
             <div class="row mt-5">
-                <div class="col-md-6 my-2" id="order2">
+                <div class="col-md-6 my-2" id="order2"  data-aos="flip-right">
                     <img class="img-fluid imgprevent" src="img/Mask.svg">
                 </div>
-                <div class="col-md-6 pt-5" id="order1">
+                <div class="col-md-6 pt-5" id="order1"  data-aos="">
                     <h4 class="preventionhead color"><span class="number"> 02 </span>Wash Your Hands</h4>
                     <p class="py-3">Wash your hands regularly for at least 20 seconds with soap and water, or clean them with alcohol-based hand rub especially after you have been in a public place, or after blowing your nose, coughing, or sneezing. Avoid touching your eyes, nose, and mouth with unwashed hands.</p>
                 </div>
             </div>
 
             <div class="row mt-5">
-                <div class="col-md-6 pt-5">
+                <div class="col-md-6 pt-5"  data-aos="">
                     <h4 class="preventionhead color"><span  class="number"> 03 </span>Avoid Close Contact</h4>
                     <p class="py-3">Avoid close contact with people who are sick, even inside your home. If possible, maintain 6 feet between the person who is sick and other household members.
                     Put distance between yourself and other people outside of your home.
                         </p>
                 </div>
-                <div class="col-md-6 my-2">
+                <div class="col-md-6 my-2"  data-aos="flip-left">
                     <img class="img-fluid imgprevent" src="img/Mask (1).svg">
                 </div>
             </div>
 
             <div class="row mt-5">
-                <div class="col-md-6 my-2" id="order2">
+                <div class="col-md-6 my-2" id="order2"  data-aos="flip-right">
                     <img class="img-fluid imgprevent" src="img/Stayhome.svg">
                 </div>
-                <div class="col-md-6 pt-5" id="order1">
+                <div class="col-md-6 pt-5" id="order1"  data-aos="">
                     <h4 class="preventionhead color"><span class="number"> 04 </span>Stay Home And Stay Safe</h4>
                     <p class="py-3">Anyone who is sick — even if they don't know for sure they have coronavirus (COVID-19) — should stay home unless they need medical care. This helps prevent the illness from spreading to other people.</p>
                 </div>
@@ -182,13 +184,20 @@
     </div>
 
 </footer>
+
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:0,
+            duration: 1000,
+        });
+      </script>
     <script src="App.js">
-       
     </script>
 </body>
 </html>

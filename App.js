@@ -1,3 +1,4 @@
+
  //scroll spy
  $('body').scrollspy({target:'#navigation'});
 
@@ -28,3 +29,4 @@ $('html, body').animate({
    }
    prevScrollpos = currentScrollPos;
  }
+

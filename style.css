@@ -148,7 +148,7 @@ hr{
 
 .card:hover{
     border-bottom:5px solid rgba(231, 8, 8, 0.9) !important;
-    transform:translateY(-10px);
+    transform:translateY(-10px) !important;
 }
 
 #undersymp{
